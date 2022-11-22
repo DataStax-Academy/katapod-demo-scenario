@@ -1,0 +1,24 @@
+{
+  "numTerminals": 2,
+  "terminalNames": [
+    "cqlsh-editor",
+    "terminal-2"
+  ],
+  "terminalTags": [
+    "cqlsh",
+    "termTwo"
+  ],
+  "startup": {
+    "cqlsh": "./wait.sh",
+    "termTwo": "./wait2.sh"
+  },
+  "stepScripts": {
+    "step1-astra": {
+      "cqlsh": "clear; echo WELCOME TO STEP1-ASTRA IN CQLSH CONSOLE :\\)"
+    },
+    "step2": {
+      "termTwo": "clear; ./t2c2.sh"
+    }
+  }
+}
+
