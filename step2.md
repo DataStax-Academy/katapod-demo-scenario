@@ -22,7 +22,7 @@
 
 <div class="step-title">This is it</div>
 
-✅ Observe that, upon loading of this stepm a command is triggered on the second terminal.
+✅ Observe that, upon loading of this step, a command is triggered on the second terminal.
 
 
 <!-- NAVIGATION -->

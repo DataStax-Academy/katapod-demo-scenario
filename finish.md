@@ -33,7 +33,8 @@
         <div class="resources">TODOs</div>
         <ul>
               <li><span class="resource">Occasionally it seems not to load properly (local vscode)</span></li>
-              <li><span class="resource">Layout glitch for Gitpod only (first term gets below web view)</span></li>
+              <li><span class="resource">Generalize to actually N consoles (currently N=1, 2 hardcoded)</span></li>
+              <li><span class="resource">Occasional layout glitch for Gitpod only (first term gets below web view)</span></li>
               <li><span class="resource">Step management automation, navigation html block automation</span></li>
               <li><span class="resource">Setting: onload script triggered again when going back to a step or not</span></li>
       </ul>
