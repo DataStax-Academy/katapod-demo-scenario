@@ -1,0 +1,36 @@
+{
+  "layout": {
+    "terminals": [
+      {
+        "ID": "cqlsh",
+        "name": "cqlsh-editor"
+      },
+      {
+        "ID": "termTwo",
+        "name": "terminal-2"
+      }
+    ]
+  },
+  "navigation": {
+    "onLoadCommands": {
+      "intro": {
+        "cqlsh": {
+          "command": "./wait.sh"
+        },
+        "termTwo": {
+          "command": "./wait2.sh"
+        }
+      },
+      "step1-astra": {
+        "cqlsh": {
+          "command": "clear; echo WELCOME TO STEP1-ASTRA IN CQLSH CONSOLE :\\)"
+        }
+      },
+      "step2": {
+        "termTwo": {
+          "command": "clear; ./t2c2.sh"
+        }
+      }
+    }
+  }
+}
