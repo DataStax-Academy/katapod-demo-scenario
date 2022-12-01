@@ -2,11 +2,11 @@
   "layout": {
     "terminals": [
       {
-        "ID": "cqlsh",
+        "id": "cqlsh",
         "name": "cqlsh-editor"
       },
       {
-        "ID": "termTwo",
+        "id": "termTwo",
         "name": "terminal-2"
       }
     ]
