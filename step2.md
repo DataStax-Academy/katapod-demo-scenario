@@ -24,6 +24,13 @@
 
 ✅ Observe that, upon loading of this step, a command is triggered on the second terminal.
 
+✅ Ready for a two-line non-executable code block?
+```
+### {"execute": false}
+echo \
+  "wow"
+```
+
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">

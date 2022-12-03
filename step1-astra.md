@@ -30,6 +30,19 @@
 date
 ```
 
+✅ Also a moot `### ` line would not create trouble
+```
+###     
+time date  # See what I did there?
+```
+
+✅ For multiple `### ` lines, the last wins
+```
+### {"whatever": 123}
+echo "Nyvpr fraqf frperg zrffntr gb Obo." | tr 'a-zA-Z' 'n-za-mN-ZA-M'
+### cqlsh
+```
+
 ✅ Run a command on a second terminal (explicitly specified with the `### termTwo` directive)
 ```
 ### termTwo
@@ -38,7 +51,7 @@ whoami
 
 ✅ Run another on the first term explicitly (`### cqlsh` directive in code block)
 ```
-### cqlsh
+###    {"terminalId": "cqlsh"}
 ls -a
 ```
 
