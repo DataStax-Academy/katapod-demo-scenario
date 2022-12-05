@@ -51,7 +51,7 @@ whoami
 
 ✅ Run another on the first term explicitly (`### cqlsh` directive in code block)
 ```
-###    {"terminalId": "cqlsh"}
+###    {"terminalId": "cqlsh", "maxInvocations": 2}
 ls -a
 ```
 

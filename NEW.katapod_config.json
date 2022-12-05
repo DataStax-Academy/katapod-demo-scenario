@@ -7,7 +7,10 @@
       },
       {
         "id": "termTwo",
-        "name": "terminal-2"
+        "name": "terminal-number-two"
+      },
+      {
+        "id": "term_3"
       }
     ]
   },
@@ -15,7 +18,8 @@
     "onLoadCommands": {
       "intro": {
         "cqlsh": {
-          "command": "./wait.sh"
+          "command": "./wait.sh",
+          "maxInvocations": 2
         },
         "termTwo": {
           "command": "./wait2.sh"
@@ -23,12 +27,18 @@
       },
       "step1-astra": {
         "cqlsh": {
-          "command": "clear; echo WELCOME TO STEP1-ASTRA IN CQLSH CONSOLE :\\)"
+          "command": "clear; echo WELCOME TO STEP1-ASTRA IN CQLSH CONSOLE :\\)",
+          "maxInvocations": "unlimited"
         }
       },
       "step2": {
         "termTwo": {
           "command": "clear; ./t2c2.sh"
+        }
+      },
+      "finish": {
+        "term_3": {
+          "command": "clear; curl http://qrenco.de/Katapod"
         }
       }
     }
