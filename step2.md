@@ -23,12 +23,20 @@
 <div class="step-title">This is it</div>
 
 ✅ Observe that, upon loading of this step, a command is triggered on the second terminal.
+**But only the first time you get here**.
 
 ✅ Ready for a two-line non-executable code block?
 ```
 ### {"execute": false}
 echo \
   "wow"
+```
+
+✅ This code block will *automatically* issue a Ctrl-C, followed by more stuff:
+```
+### {"terminalId": "term_3", "macrosBefore": ["ctrl_c"]}
+# (a Ctrl-C to stop the running process, then:)
+find -name "*.md"
 ```
 
 

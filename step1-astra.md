@@ -55,6 +55,14 @@ whoami
 ls -a
 ```
 
+✅ How about starting a command _that does not terminate_? (Scary, I know)
+```
+### term_3
+watch -t -n 1 date +"%H:%M:%S"
+```
+
+
+
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
  <a href='command:katapod.loadPage?[{"step":"intro"}]'
