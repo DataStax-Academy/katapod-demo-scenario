@@ -86,6 +86,15 @@ _In this case, some parsing is in order by the extension:_
 
 ![a-local-image-prefixed-with-slash](/images/phases.png)
 
+The two images above are obtained simply with:
+
+```
+### {"execute": false}
+![a-local-image](images/phases.png)
+
+![a-local-image-prefixed-with-slash](/images/phases.png)
+```
+
 ### An external image:
 
 ![an-external-image](https://raw.githubusercontent.com/datastaxdevs/workshop-streaming-game/main/images/drapetisca_intro_v2.png)
