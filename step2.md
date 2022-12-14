@@ -99,6 +99,13 @@ The two images above are obtained simply with:
 
 ![an-external-image](https://raw.githubusercontent.com/datastaxdevs/workshop-streaming-game/main/images/drapetisca_intro_v2.png)
 
+This comes from:
+
+```
+### {"execute": false}
+![an-external-image](https://raw.githubusercontent.com/datastaxdevs/workshop-streaming-game/main/images/drapetisca_intro_v2.png)
+```
+
 # Links
 
 Try this: [click here!](https://docs.datastax.com/en/astra-serverless/docs/migrate/introduction.html)
