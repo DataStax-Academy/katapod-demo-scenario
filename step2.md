@@ -110,6 +110,8 @@ This comes from:
 
 Try this: [click here!](https://docs.datastax.com/en/astra-serverless/docs/migrate/introduction.html)
 
+**Note: as with all new tabs from Katapod (Gitpod), one has to check the POPUP BLOCKER to let them open.**
+
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
  <a href='command:katapod.loadPage?[{"step":"step1-astra"}]'
