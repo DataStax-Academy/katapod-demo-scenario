@@ -39,6 +39,60 @@ echo \
 find -name "*.md"
 ```
 
+# Markdown Title
+
+This part tests the rendering of markdown section hierarchy
+
+## Markdown Section
+
+This is a section.
+
+### A subsection
+
+And here is a subsection
+
+#### A sub-sub-section
+
+The above had _four_ pound symbols **in a row**, wow.
+
+##### Does a five-pound piece ...
+
+... without the Queen on it even exist?
+
+###### What about:
+
+six pound symbols?
+
+# A collapsible-block test
+
+This is the main text.
+
+<details><summary>Show me also a list</summary>
+
+1. Gluon
+2. Photon
+3. W boson
+4. Z boson
+
+</details>
+
+# Images on the page, a test
+
+### A local image (twice):
+
+_In this case, some parsing is in order by the extension:_
+
+![a-local-image](images/phases.png)
+
+![a-local-image-prefixed-with-slash](/images/phases.png)
+
+### An external image:
+
+![an-external-image](https://raw.githubusercontent.com/datastaxdevs/workshop-streaming-game/main/images/drapetisca_intro_v2.png)
+
+# Links
+
+Try this: [click here!](https://docs.datastax.com/en/astra-serverless/docs/migrate/introduction.html)
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
