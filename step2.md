@@ -20,7 +20,7 @@
 
 <!-- CONTENT -->
 
-<div class="step-title">This is it</div>
+<div class="step-title">More stuff</div>
 
 ✅ Observe that, upon loading of this step, a command is triggered on the second terminal.
 **But only the first time you get here**.
@@ -29,14 +29,84 @@
 ```
 ### {"execute": false}
 echo \
-  "wow"
+    "wow"
 ```
 
 ✅ This code block will *automatically* issue a Ctrl-C, followed by more stuff:
 ```
 ### {"terminalId": "term_3", "macrosBefore": ["ctrl_c"]}
-# (a Ctrl-C to stop the running process, then:)
+# (a Ctrl-C to stop the running loop, then:)
+exit()
+
+# back to shell!
 find -name "*.md"
+```
+
+# Inline code
+
+Please wipe your computer: `rm * -rf`. You will thank me later.
+(this was just to check styling, don't run it for real.
+**Don't `run` it!**
+_Don't `run` it!_
+**_Don't `run` it!_** ).
+
+# Syntax highlighting
+
+_Note: don't bother running these, they're for display._
+
+A plain code block
+
+```
+def fun(arg):
+  return 123
+```
+
+A Python code block
+
+```python
+def fun(arg):
+  return 123
+```
+
+A CQL code block (literally `cql` in the codeblock specifier - translated to SQL at the moment)
+
+```sql
+SELECT * FROM table
+  WHERE column = 123;
+
+CREATE TABLE table (
+  pk INT,
+  co TEXT,
+  va TIMESTAMP,
+  PRIMARY KEY ( ( pk ), co)
+) WITH CLUSTERING ORDER BY (co ASC);
+```
+
+Non-executable versions of the above:
+
+```
+### {"execute": false}
+def fun(arg):
+  return 123
+```
+
+```python
+### {"execute": false}
+def fun(arg):
+  return 123
+```
+
+```sql
+### {"execute": false}
+SELECT * FROM table
+  WHERE column = 123;
+
+CREATE TABLE table (
+  pk INT,
+  co TEXT,
+  va TIMESTAMP,
+  PRIMARY KEY ( ( pk ), co)
+) WITH CLUSTERING ORDER BY (co ASC);
 ```
 
 # Markdown Title

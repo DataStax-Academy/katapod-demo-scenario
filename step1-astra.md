@@ -52,13 +52,26 @@ whoami
 ✅ Run another on the first term explicitly (`### cqlsh` directive in code block)
 ```
 ###    {"terminalId": "cqlsh", "maxInvocations": 2}
-ls -a
+ls -a &
 ```
 
-✅ How about starting a command _that does not terminate_? (Scary, I know)
+✅ Start Python:
+
 ```
 ### term_3
-watch -t -n 1 date +"%H:%M:%S"
+python
+```
+
+✅ How about running code _that does not terminate_? (Scary, I know)
+```python
+### term_3
+import time
+i = 0
+while True:
+   print('Zero & %i' % i)
+   i += 1
+   time.sleep(0.5)
+
 ```
 
 
