@@ -55,6 +55,8 @@ whoami
 ls -a &
 ```
 
+Try runnig it a _second_ time. All good? I bet you cannot run it a _third_ time, though. Go ahead, try it again. LOL.
+
 ✅ Start Python:
 
 ```
