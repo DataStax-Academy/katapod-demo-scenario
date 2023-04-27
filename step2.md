@@ -50,7 +50,7 @@ Please wipe your computer: `rm * -rf`. You will thank me later.
 _Don't `run` it!_
 **_Don't `run` it!_** ).
 
-# Syntax highlighting
+# Syntax highlighting & customizations
 
 _Note: don't bother running these, they're for display._
 
@@ -70,7 +70,7 @@ def fun(arg):
 
 A CQL code block (literally `cql` in the codeblock specifier - translated to SQL at the moment)
 
-```sql
+```cql
 SELECT * FROM table
   WHERE column = 123;
 
@@ -96,7 +96,7 @@ def fun(arg):
   return 123
 ```
 
-```sql
+```cql
 ### {"execute": false}
 SELECT * FROM table
   WHERE column = 123;
@@ -107,6 +107,13 @@ CREATE TABLE table (
   va TIMESTAMP,
   PRIMARY KEY ( ( pk ), co)
 ) WITH CLUSTERING ORDER BY (co ASC);
+```
+
+### Custom background color for codeblocks
+
+```python
+### {"terminalId": "host", "backgroundColor": "#F0C0C0"}
+print("this block has a weird color.")
 ```
 
 # Markdown Title
@@ -137,7 +144,7 @@ six pound symbols?
 
 This is the main text.
 
-<details><summary>Show me also a list</summary>
+<details class="katapod-details"><summary>Show me also a list</summary>
 
 1. Gluon
 2. Photon
@@ -145,6 +152,17 @@ This is the main text.
 4. Z boson
 
 </details>
+
+# Tables
+
+Check this:
+
+| Spider | Family |
+|--------|--------|
+| Steatoda | Theridiidae |
+| Gibbaranea | Araneidae |
+| Heliophanus | Salticidae |
+| Eratigena | Agelenidae |
 
 # Images on the page, a test
 
