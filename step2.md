@@ -116,6 +116,22 @@ CREATE TABLE table (
 print("this block has a weird color.")
 ```
 
+### Very long commands to check overflow handling
+
+```
+### {"execute": false}
+echo This will never be executed, This will never be executed, This will never be executed, This will never be executed, This will never be executed, This will never be executed
+```
+
+```
+echo This is a click-to-execute command, This is a click-to-execute command, This is a click-to-execute command, This is a click-to-execute command, This is a click-to-execute command
+```
+
+```
+### {"backgroundColor": "#D0F0D0"}
+echo This is a custom-background command, This is a custom-background command, This is a custom-background command, This is a custom-background command, This is a custom-background command
+```
+
 # Markdown Title
 
 This part tests the rendering of markdown section hierarchy
