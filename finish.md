@@ -36,6 +36,7 @@
               <li><span class="scenario-objective">test the Katapod engine against a known set of pages.</span></li>
         </ul>
         <div class="scenario-objectives">Now go and create a scenario yourself!</div>
+        <div class="scenario-objectives">Why don't you <a href="https://twitter.com/intent/tweet?url=https://datastax.academy&text=I%20just%20finished%20another%20awesome%20DataStax%20Academy%20Hands-On%20Lab!">tweet</a> about how awesome this Lab was?</div>
       </div>
      </div>
     </div>
