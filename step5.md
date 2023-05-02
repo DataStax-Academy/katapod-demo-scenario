@@ -52,7 +52,7 @@ Standard Markdown tables are supported:
 
 ## Images
 
-You can embed images with HTML `<img>` tags if you want, which will work only with absolute paths:
+You can embed images with HTML `<img>` tags if you want, which will work only with absolute paths (but note the absence of spacing-fixing CSS if you do it this way):
 
 <img src="https://raw.githubusercontent.com/DataStax-Academy/katapod-quickstart/main/images/fishes_1.png" />
 
