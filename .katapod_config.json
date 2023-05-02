@@ -60,7 +60,7 @@
             "command": "clear; curl http://qrenco.de/Katapod"
           },
           {
-            "command": "echo Welcome here ... again and again",
+            "command": "echo You made it ... again and again",
             "maxInvocations": "unlimited"
           }
         ]
