@@ -54,7 +54,7 @@ Standard Markdown tables are supported:
 
 You can embed images with HTML `<img>` tags if you want, which will work only with absolute paths:
 
-<img src="https://raw.githubusercontent.com/DataStax-Academy/katapod-quickstart/main/images/images/fishes_1.png" />
+<img src="https://raw.githubusercontent.com/DataStax-Academy/katapod-quickstart/main/images/fishes_1.png" />
 
 To embed images in the repo itself, use Markdown image syntax, either with a leading slash:
 
