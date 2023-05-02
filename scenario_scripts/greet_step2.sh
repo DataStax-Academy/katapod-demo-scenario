@@ -10,8 +10,6 @@ echo "   |: | \  \  /   /  \\\\  \\\\:  | /   /  \\\\  \  /|__/ \   \        /  
 echo "   (__|  \__)(___/    \___)\__|(___/    \___)(_______)   \\\"_____/   (________/   "
 echo ""
 
-echo "AND NOW WE ARE ON SECOND STEP AND THIS IS IN SECOND CONSOLE, LOL"
+echo "This is Step Two."
 
 echo ""
-
-

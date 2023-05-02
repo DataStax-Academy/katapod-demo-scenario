@@ -19,13 +19,17 @@
       "intro": {
         "cqlsh": [
           {
-            "command": "./wait.sh",
+            "command": "./scenario_scripts/welcome.sh",
             "maxInvocations": 2
           }
         ],
         "termTwo": [
           {
-            "command": "./wait2.sh"
+            "command": "./scenario_scripts/welcome_term2.sh"
+          },
+          {
+            "command": "date",
+            "maxInvocations": "unlimited"
           }
         ]
       },
@@ -40,7 +44,13 @@
       "step2": {
         "termTwo": [
           {
-            "command": "clear; ./t2c2.sh"
+            "command": "./scenario_scripts/greet_step2.sh"
+          }
+        ],
+        "term_3": [
+          {
+            "command": "./scenario_scripts/greet_step2.sh",
+            "maxInvocations": 3
           }
         ]
       },
