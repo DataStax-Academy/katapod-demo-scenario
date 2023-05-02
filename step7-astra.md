@@ -21,7 +21,12 @@
 <!-- CONTENT -->
 <div class="step-title">Astra-specific step</div>
 
-Nothing to see here, move on.
+Incidentally, this scenario template comes with `astra cli` preinstalled: try to run
+
+```bash
+### term_3
+astra help
+```
 
 _Note_: it is usually good practice to arrange the next page so that it provides two "Back" buttons.
 

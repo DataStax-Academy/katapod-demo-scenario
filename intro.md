@@ -64,11 +64,11 @@
             </p>
             <p>
               <strong>About Katapod:</strong>
-              Katapod was born as an homegrown replacement for the now-discontinued Katacoda, as
+              Katapod was born as a homegrown replacement for the now-discontinued Katacoda, as
               a specialized extension for VSCode Server running, in turn, within Gitpod images.
               For more, check out <a href="https://github.com/DataStax-Academy/katapod">Katapod</a> on Github.
             <br>
-              This scenario should be kept up to date and showcase all the features in the Katapod engine,
+              We do our best to keep it up to date and use it to showcase all the features in the Katapod engine,
               so as to serve as a quick smoke-test when updates to the engine are released.
             </p>
           </div>
